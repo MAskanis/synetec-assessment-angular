@@ -33,10 +33,10 @@ export class CitiesListComponent implements OnInit{
     
   }
 
-  deleteCity(id: number): void {
-    
-    alert('You are about to delete record ' + id);
-   
+  deleteCity(id: number, name: string): void {
+
+    alert('You are about to delete the city = ' + name);
+
     for (let i = 0; i < this.cities.length; ++i) {
       if (this.cities[i].id === id) {
         this.cities.splice(i, 1);

@@ -5,8 +5,10 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\cities"
+    "\\src\\app\\components\\cities",
+    "\\src\\app\\services",
+    "\\src\\app\\services\\cities"
   ],
-  "SelectedNode": "\\src\\app\\components\\cities\\cities-list.component.ts",
+  "SelectedNode": "\\src\\app\\components\\cities\\cities-list.component.html",
   "PreviewInSolutionExplorer": false
 }
